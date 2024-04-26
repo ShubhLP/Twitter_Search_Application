@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Twitter</title>
+</head>
+<body>
+    <h1>Search Twitter</h1>
+
+    <form action="/search" method="get">
+        <label for="search_type">Search by:</label>
+        <select name="search_type" id="search_type">
+            <option value="string">String</option>
+            <option value="hashtag">Hashtag</option>
+            <option value="user">User</option>
+        </select>
+
+        <label for="query">Query:</label>
+        <input type="text" name="query" id="query" required>
+
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>

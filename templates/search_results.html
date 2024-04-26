@@ -1,0 +1,101 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    
+    <ul>
+        {% for tweet in tweets %}
+            <li>{{ tweet.text }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    
+    <ul>
+        {% for tweet in tweets %}
+            <li>{{ tweet.text }}</li>
+        {% endfor %}
+    </ul>
+
+    <br>
+    <a href="/" class="btn btn-primary">Back to Search</a>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    
+    {% if tweets %}
+        <ul>
+            {% for tweet in tweets %}
+                <li>{{ tweet.text }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No tweets found.</p>
+    {% endif %}
+
+    <br>
+    <a href="/" class="btn btn-primary">Back to Search</a>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    
+    {% if tweets %}
+        <ul>
+            {% for tweet in tweets %}
+                <li>{{ tweet.text }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No tweets found.</p>
+    {% endif %}
+
+    <br>
+    <a href="/" class="btn btn-primary">Back to Search</a>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    
+    {% if tweets %}
+        <ul>
+            {% for tweet in tweets %}
+                <li>{{ tweet.text }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No tweets found.</p>
+    {% endif %}
+
+    <br>
+    <a href="/" class="btn btn-primary">Back to Search
